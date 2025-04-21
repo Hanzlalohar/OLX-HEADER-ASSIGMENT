@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: white;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .header-left,
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    color: #002f34;
+    cursor: pointer;
+  }
+  
+  .header-center {
+    display: flex;
+    flex: 1;
+    max-width: 700px;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .location-box {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 150px;
+    color: #002f34;
+    background-color: #fff;
+  }
+  
+  .search-box {
+    display: flex;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .search-box button {
+    background-color: #002f34;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    cursor: pointer;
+  }
+  
+  .login {
+    font-weight: bold;
+    color: #002f34;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+  
+  .sell-button {
+    display: flex;
+    align-items: center;
+    padding: 6px 15px;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #ffce32, #00aecd, #23e5db, #3a77ff) 1;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #002f34;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .sell-button i {
+    margin-right: 5px;
+  }
+  
+
+  h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+
+.pic{
+    border-radius: 20px 20px;
+    margin: 20px;
+}
